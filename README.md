@@ -1,2 +1,138 @@
 # fintech-lendingclub-model-by-catboost-algorithm
-python风控建模实战lendingClub
+《python风控建模实战lendingClub》视频教程：http://dwz.date/b626
+
+课程目录
+
+章节1 python编程环境搭建
+课时1风控建模语言，python，R，SAS优劣对比
+课时2Anaconda快速入门指南
+课时3Anaconda下载安装
+课时4canopy下载和安装
+课时5Anaconda Navigator导航器05:38
+课时6python第三方包安装(pip和conda install)
+课时7Python非官方扩展包下载地址
+课时8Anaconda安装不同版本python
+课时9为什么使用jupyter notebook及如何安装
+课时10如何用jupyter notebook打开指定文件夹内容？
+课时11jupyter基本文本编辑操作
+课时12jupyter生成在线PPT汇报文档
+课时13jupyter notebook用matplotlib不显示图片解决方案
+
+章节2 python编程基础
+课时14Python文件基本操作
+课时15python官网
+课时16变量_表达式_运算符_值
+课时17字符串string
+课时18列表list
+课时19程序的基本构架（条件，循环）
+课时20数据类型_函数_面向对象编程
+课时21python2和3区别
+课时22编程技巧和学习方法
+
+章节3 python机器学习基础知识
+课时23UCI机器学习数据库介绍
+课时24机器学习书籍推荐
+课时25如何选择算法
+课时26sklearn机器学习算法速查表
+课时27python数据科学常用的库
+课时28python数据科学入门介绍（选修）
+
+章节4 lendingClub业务介绍（P2P鼻祖）
+课时29lendingClub业务简介
+课时30lendingclub债务危机及深层次时代背景
+课时31lendingClub官网数据下载(或本集参考资料下载)
+
+章节5catboost基础介绍
+课时32catboost基础知识讲解-比xgboost更优算法登场
+课时33catboost官网介绍
+
+章节6 lengding Club实战_catboost分类器模型
+课时34数据清洗和首次变量筛选
+课时35catboost第三方包下载和安装
+课时36import导入建模的包
+课时37读取数据和描述性统计
+课时38train，test训练和测试数据划分
+课时39fit训练模型
+课时40模型验证概述
+课时41树模型需要相关性检验吗？
+课时42交叉验证cross validation
+课时43混淆矩阵理论概述，accuracy，sensitivity，precision，F1分数
+课时44混淆矩阵python脚本实现
+课时45计算模型ks(Kolmogorov-Smirnoff)
+课时46catboost1_建模脚本连贯讲解
+课时47catboost2_第二次变量筛选
+课时48catboost3_分类变量cat_features使用
+
+章节7KS（Kolmogorov–Smirnov）模型区分能力指标
+课时49KS简介
+课时50step1获取模型分
+课时51step2_计算ks_方法1
+课时52step3_计算ks_方法2
+课时53step4_计算ks_excel推理
+课时54step5_绘制KS图
+课时55step6_KS评估函数
+课时56step7_KS脚本汇总_分治算法
+课时57step8_KS缺陷
+
+章节8AUC（Area Under Curve）模型区分能力指标
+课时58excel绘制ROC曲
+课时59python计算AUC很简单
+课时60python轻松绘制ROC曲线
+课时61AUC评估函数_AUC多大才算好？
+课时62Gini基尼系数基本概念和AUC关系
+
+章节9pickle保存模型
+课时63pickle保存和导入模型包_避免重复训练模型时间
+
+章节10PSI模型稳定性评估指标（上）
+课时64拿破仑和希特勒征服欧洲为何失败？数学PSI指标揭露历史真相
+课时65excel手把手教你推导PSI的计算公式
+课时66PSI计算公式奥义
+课时67PSI的python脚本讲解
+
+章节11PSI模型稳定性评估指标（下）
+课时68step1.筛选lendingClub2018年Q3和Q4数据
+课时69step2_计算train，test，oot模型分
+课时70step3.计算Q3和Q4模型分PSI
+
+章节12模型维度与边际效应
+课时71边际效应基本概念
+课时72模型维度与边际效应,变量越多越好吗？
+课时73降维实操，结果让人吃惊！
+课时74模型变量数量越多，区分能力（ks）越高吗？
+
+章节13catboost分类变量处理
+课时75 One-hot encoding热编码
+课时76 cat_features分类变量处理（数值型）1
+课时77 cat_features分类变量处理（字符串类型）
+课时78 不同分类变量处理方法的结果对比
+
+章节14catboost调参
+课时79GridSearchCV网格调参简述
+课时80iterations树的颗树
+课时81eval_metric评估参数（logloss_AUC_Accuracy_F1_Recall）
+课时82learning_rate学习率
+课时83树深度depth（max_depth）
+课时84 l2_leaf_reg正则系数L2调参
+
+章节15多算法比较
+课时85xgboost分类器模型
+课时86lightgbm分类器建模
+课时87逻辑回归分类器和多算法比较结果
+
+章节16消费者信用评分实战_回归模型
+课时88机器学习回归竞赛_一百万奖金挑战
+课时89线性回归基础知识（最小二乘法OLS）
+课时90梯度下降法gradient descent
+课时91误差error_偏差bias_方差variance
+课时92shrinkage特征缩减技术_正则化
+课时93ridge岭回归_lasso回归_elasticNetwork弹性网络
+课时94sklearn_ridge岭回归脚本
+课时95逻辑回归_regression脚本
+课时96支持向量回归SVR脚本
+课时97随机森林randomForest回归脚本
+课时98xgboost regression回归脚本
+课时99catboost regressor回归脚本
+课时100lightgbm基础知识讲解
+课时101lightgbm regressor回归脚本
+课时102sequencial线性模型回归预测脚本
